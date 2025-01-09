@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geometry genius</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+
+<body class="m-8">
+
+    <main class="flex flex-col md:flex-row">
+        <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- triangle area -->
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="images/triangle.png" alt="Shoes" class="rounded-xl" />
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Triangle</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="flex">
+                        <input class="w-24 border-2 rounded-sm text-2xl p-2" type="text" id="get-base" placeholder="base"><span>cm</span>
+                        <input class="w-24 border-2 rounded-sm text-2xl p-2" type="text" id="get-height" placeholder="height"><span>cm</span>
+                    </div>
+                    <div class="card-actions">
+                        <button onclick="getbase()" class="btn btn-primary w-full ">calculate</button>
+                    </div>
+                </div>
+            </div>
+            <!-- rectangle area -->
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes"
+                        class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes"
+                        class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes"
+                        class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes"
+                        class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <div class="card bg-base-100 w-96 shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes"
+                        class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title">Shoes!</h2>
+                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <div class="card-actions">
+                        <button class="btn btn-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" w-96 border-2">
+            <h1> calculate area</h1>
+            <h1 class="text-2xl" id="show-area"></h1>
+        </div>
+    </main>
+
+
+
+   <script src="utality.js"></script>
+    <script src="geometry-genius.js"></script>
 </body>
+
 </html>
